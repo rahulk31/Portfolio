@@ -132,6 +132,11 @@ nav .logo {
     display: none;
   }
 
+  .menu .button {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+
   .hero-section {
     margin: 2rem 2rem;
     display: flex;
@@ -179,6 +184,10 @@ nav .logo {
   }
   .menu ul li:nth-child(3) {
     display: none;
+  }
+  .menu .button {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
   }
 
   .hero-section {
