@@ -1,6 +1,7 @@
 :root {
   --blue: #2a2552;
   --green: #3ad4af;
+  --light-green: #e6f7f3;
   --blackish: #212529;
   --grey: #c5c3c3;
   --white: #ffffff;
@@ -79,6 +80,8 @@ nav .logo {
 #hero {
   background-image: url('./../assets/images/01.svg');
   object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
 .hero-section {
@@ -105,6 +108,114 @@ nav .logo {
 
 .right img {
   width: 80%;
+  text-align: center;
+}
+
+#projects {
+  margin: 1rem 3rem;
+  box-sizing: border-box;
+  background-image: url('./../assets/images/02.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline {
+  text-align: center;
+  margin: 6rem auto;
+}
+
+.headline h1 {
+  display: inline-block;
+  border-bottom: 5px solid var(--green);
+}
+
+.flex-project-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project {
+  max-width: 300px;
+  box-sizing: border-box;
+  margin: 1rem 1rem;
+  border-radius: 5px;
+  /* background-color: var(--light-green); */
+  box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.15);
+}
+
+.project-name {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--blue);
+}
+
+.project-name h3 {
+  margin: 1rem 0 0 1rem;
+  padding: 0.2rem 0.7rem;
+  color: var(--white);
+  border-radius: 8px;
+  display: inline-block;
+  background-color: var(--blackish);
+}
+
+.p1 {
+  background-image: url('./../assets/projects/shortly.png');
+}
+
+.p2 {
+  background-image: url('./../assets/projects/QRCode.png');
+}
+.p3 {
+  background-image: url('./../assets/projects/randomQuotes.png');
+}
+.p4 {
+  background-image: url('./../assets/projects/chatroom.png');
+}
+.p5 {
+  background-image: url('./../assets/projects/coronaTracker.PNG');
+}
+.p6 {
+  background-image: url('./../assets/projects/calculator.PNG');
+}
+
+.icons {
+  margin: 1rem auto 0 auto;
+  text-align: center;
+}
+
+.icons img {
+  margin: 0 1rem;
+}
+
+.technologies {
+  margin: 0.5rem 1rem;
+}
+
+.technologies ul {
+  list-style-type: none;
+}
+
+.technologies ul li {
+  display: inline-block;
+  padding: 0.1rem 0.3rem;
+  margin: 0.5rem;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  background-color: var(--light-green);
+}
+
+.technologies ul li:last-child {
+  margin-bottom: 1rem;
+}
+
+.space {
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 500px) {
@@ -157,7 +268,7 @@ nav .logo {
 
   .right img {
     margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 }
 
