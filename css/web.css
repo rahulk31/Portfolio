@@ -218,7 +218,7 @@ nav .logo {
 }
 
 #education {
-  background-color: url('./../assets/images/03.svg');
+  background-image: url('./../assets/images/03.svg');
   background-repeat: no-repeat;
   background-position: cover;
   object-fit: cover;
@@ -265,9 +265,13 @@ nav .logo {
 #contact {
   margin: auto;
   text-align: center;
+  background-image: url('./../assets/images/04.svg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
-.left {
+.left2 {
   text-align: center;
   display: inline-block;
   justify-content: center;

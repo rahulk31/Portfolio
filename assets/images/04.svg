@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-_04">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="_04" data-name="04" clip-path="url(#clip-_04)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <text id="_04-2" data-name="04" transform="translate(78 216)" fill="rgba(197,195,195,0.1)" font-size="200" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">04</tspan></text>
+    <line id="Line_1" data-name="Line 1" x2="106" transform="translate(101.5 266.5)" fill="none" stroke="rgba(197,195,195,0.1)" stroke-linecap="round" stroke-width="20"/>
+    <line id="Line_2" data-name="Line 2" y2="814" transform="translate(101.5 266.5)" fill="none" stroke="rgba(197,195,195,0.1)" stroke-width="5"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M964.5,0,1929,653H0Z" transform="translate(776.826 265.945) rotate(8)" fill="rgba(197,195,195,0.1)"/>
+  </g>
+</svg>
