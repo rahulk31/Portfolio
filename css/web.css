@@ -262,19 +262,22 @@ nav .logo {
   font-weight: 600;
 }
 
-.wrapper,
+#contact {
+  margin: auto;
+  text-align: center;
+}
+
+.left {
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
 .citem {
   display: flex;
-  text-align: center;
-  justify-content: space-evenly;
   flex-flow: row-wrap;
-}
-
-.wrapper {
-  padding-bottom: 3rem;
-}
-
-.citem {
   text-align: left;
   justify-content: left;
   margin: 0.5rem;
@@ -282,17 +285,6 @@ nav .logo {
 
 .citem p {
   font-size: 20px;
-}
-
-.citem i {
-  width: 25px;
-  text-align: center;
-}
-
-.wrapper img {
-  border-radius: 50%;
-  border: 8px solid var(--blue);
-  object-fit: fill;
 }
 
 footer {
