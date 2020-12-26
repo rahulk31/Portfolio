@@ -112,11 +112,12 @@ nav .logo {
 }
 
 #projects {
-  margin: 1rem 3rem;
+  padding: 1rem 3rem;
   box-sizing: border-box;
   background-image: url('./../assets/images/02.svg');
+  object-fit: cover;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: cover;
 }
 
 .headline {
@@ -140,7 +141,7 @@ nav .logo {
   box-sizing: border-box;
   margin: 1rem 1rem;
   border-radius: 5px;
-  /* background-color: var(--light-green); */
+  background: linear-gradient(120deg, var(--green), var(--blue));
   box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.15);
 }
 
@@ -152,7 +153,7 @@ nav .logo {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
-  border-bottom: 1px solid var(--blue);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .project-name h3 {
@@ -203,19 +204,23 @@ nav .logo {
 
 .technologies ul li {
   display: inline-block;
-  padding: 0.1rem 0.3rem;
-  margin: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0.3rem;
   border: 1px solid var(--blue);
   border-radius: 5px;
-  background-color: var(--light-green);
+  background: linear-gradient(120deg, var(--green), var(--blue));
+  color: var(--white);
 }
 
 .technologies ul li:last-child {
   margin-bottom: 1rem;
 }
 
-.space {
-  margin-top: 2rem;
+#education {
+  background-color: url('./../assets/images/03.svg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  object-fit: cover;
 }
 
 .timeline-wrapper {
