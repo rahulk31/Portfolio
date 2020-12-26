@@ -5,6 +5,7 @@
   --blackish: #212529;
   --grey: #c5c3c3;
   --white: #ffffff;
+  --blue-bg: #e9f2fc;
 }
 
 * {
@@ -259,6 +260,55 @@ nav .logo {
 #education .timeline-wrapper .item p:first-child {
   font-size: 25px;
   font-weight: 600;
+}
+
+.wrapper,
+.citem {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-flow: row-wrap;
+}
+
+.wrapper {
+  padding-bottom: 3rem;
+}
+
+.citem {
+  text-align: left;
+  justify-content: left;
+  margin: 0.5rem;
+}
+
+.citem p {
+  font-size: 20px;
+}
+
+.citem i {
+  width: 25px;
+  text-align: center;
+}
+
+.wrapper img {
+  border-radius: 50%;
+  border: 8px solid var(--blue);
+  object-fit: fill;
+}
+
+footer {
+  margin: 1rem 0 0 0;
+  padding: 3rem;
+  background: linear-gradient(120deg, var(--green), var(--blue));
+}
+
+footer p {
+  text-align: center;
+  color: var(--white);
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--green);
 }
 
 @media screen and (max-width: 500px) {
