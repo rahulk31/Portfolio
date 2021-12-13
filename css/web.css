@@ -14,6 +14,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 body {
   font-family: 'Jost', sans-serif;
 }
@@ -29,6 +33,10 @@ body {
 
 .green {
   color: var(--green);
+}
+
+.grey {
+  color: var(--grey);
 }
 
 .big-text {
@@ -110,6 +118,10 @@ nav .logo {
 .right img {
   width: 80%;
   text-align: center;
+  box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  border: 1px solid ;
+
 }
 
 #projects {
@@ -142,7 +154,7 @@ nav .logo {
   box-sizing: border-box;
   margin: 1rem 1rem;
   border-radius: 5px;
-  background: linear-gradient(120deg, var(--green), var(--blue));
+  background: linear-gradient(120deg, var(--blackish), var(--blackish));
   box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.15);
 }
 
@@ -154,7 +166,7 @@ nav .logo {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); */
 }
 
 .project-name h3 {
@@ -174,17 +186,12 @@ nav .logo {
   background-image: url('./../assets/projects/QRCode.png');
 }
 .p3 {
-  background-image: url('./../assets/projects/randomQuotes.png');
+  background-image: url('./../assets/projects/pizza.png');
 }
 .p4 {
-  background-image: url('./../assets/projects/chatroom.png');
+  background-image: url('./../assets/projects/Blog.png');
 }
-.p5 {
-  background-image: url('./../assets/projects/coronaTracker.PNG');
-}
-.p6 {
-  background-image: url('./../assets/projects/calculator.PNG');
-}
+
 
 .icons {
   margin: 1rem auto 0 auto;
@@ -196,20 +203,23 @@ nav .logo {
 }
 
 .technologies {
-  margin: 0.5rem 1rem;
+  margin: 0.5rem auto;
 }
 
 .technologies ul {
+  margin: 0 auto;
+  text-align: center;
   list-style-type: none;
 }
 
 .technologies ul li {
   display: inline-block;
   padding: 0.2rem 0.5rem;
-  margin: 0.3rem;
+  margin: 0.3rem auto;
+  text-align: center;
   border: 1px solid var(--blue);
   border-radius: 5px;
-  background: linear-gradient(120deg, var(--green), var(--blue));
+  background: linear-gradient(120deg, var(--green), var(--green));
   color: var(--white);
 }
 
@@ -217,8 +227,14 @@ nav .logo {
   margin-bottom: 1rem;
 }
 
-#education {
+#experience {
   background-image: url('./../assets/images/03.svg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  object-fit: cover;
+}
+#education {
+  background-image: url('./../assets/images/04.svg');
   background-repeat: no-repeat;
   background-position: cover;
   object-fit: cover;
@@ -257,6 +273,27 @@ nav .logo {
   background-color: var(--green);
 }
 
+
+.more-projects {
+  margin: 3rem auto 1rem auto;
+  padding: 1.2rem 1rem;
+  text-align: center;
+  max-width: 350px;
+  background-color: var(--blackish);
+  border-left: 8px solid var(--green);
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+}
+
+.more-projects-text {
+  font-size: 18px;
+}
+
+#experience .timeline-wrapper .item p:first-child {
+  font-size: 25px;
+  font-weight: 600;
+}
 #education .timeline-wrapper .item p:first-child {
   font-size: 25px;
   font-weight: 600;
