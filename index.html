@@ -34,35 +34,46 @@
       </nav>
     </header>
     <section id="hero">
-      <div class="hero-section">
-        <div class="left">
-          <h1 class="blue big-text">Hello World! I am Rahul,</h1>
-          <h1 class="blue big-text">
-            a Javascript enthusiast and a tech-fanatic.
-          </h1>
-          <p class="green medium-text">I write code for the web.</p>
-          <div class="social-icons">
-            <a href="https://www.github.com/rahulk31" target="_blank"
-              ><img src="./assets/social/github.png" alt="github" width="40px"
-            /></a>
-            <a href="https://www.linkedin.com/in/eyerahulk" target="_blank"
-              ><img
-                src="./assets/social/linkedin.png"
-                alt="linkedin"
-                width="40px"
-            /></a>
-            <a href="#" target="_blank"
-              ><img
-                src="./assets/social/youtube.png"
-                alt="youtube"
-                width="40px"
-            /></a>
-          </div>
-        </div>
-        <div class="right">
-          <img src="./assets/images/my8bitProfile.png" alt="me" />
+      <div class="hero-text">
+        <h1 class="blue big-text heading">
+          👋 Hello World! I am
+          <span class="green big-text heading-span">Rahul</span>, <br />a
+          Javascript enthusiast and a tech-fanatic.
+        </h1>
+        <p class="green medium-text sub-heading">I write code for the web.</p>
+        <div class="social-icons">
+          <a href="https://www.github.com/rahulk31" target="_blank"
+            ><img src="./assets/social/github.png" alt="github"
+          /></a>
+          <a href="https://www.linkedin.com/in/eyerahulk" target="_blank"
+            ><img src="./assets/social/linkedin.png" alt="linkedin"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="./assets/social/youtube.png" alt="youtube"
+          /></a>
         </div>
       </div>
+
+      <div class="hero-img">
+        <img src="./assets/images/my8bitProfile.png" alt="" />
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="headline"><h1 class="blue big-text">SKILLS</h1></div>
+      <marquee direction="right" scrollamount="15" class="skills-imgs">
+        <img src="./assets/skills/html.svg" alt="" class="skill" />
+        <img src="./assets/skills/css.svg" alt="" class="skill" />
+        <img src="./assets/skills/javascript.svg" alt="" class="skill" />
+        <img src="./assets/skills/react.svg" alt="" class="skill" />
+        <img src="./assets/skills/nodejs.svg" alt="" class="skill" />
+        <img src="./assets/skills/express.svg" alt="" class="skill" />
+        <img src="./assets/skills/java.svg" alt="" class="skill" />
+        <img src="./assets/skills/mysql.svg" alt="" class="skill" />
+        <img src="./assets/skills/mongodb.svg" alt="" class="skill" />
+        <img src="./assets/skills/github.svg" alt="" class="skill" />
+        <img src="./assets/skills/vscode.svg" alt="" class="skill" />
+      </marquee>
     </section>
 
     <section id="projects">
@@ -187,7 +198,57 @@
     </section>
 
     <!-- Blog section -->
-    
+
+    <section id="blogs">
+      <div class="headline"><h1 class="blue big-text">BLOGS</h1></div>
+      <div class="blogs-container">
+        <div class="blog">
+          <div class="thumbnail">
+            <img src="./assets/blogs/Destructuring.png" alt="" />
+          </div>
+          <div class="blog-text">
+            <a href="https://blognotes.hashnode.dev/destructuring-arrays-and-objects" target="_blank"><h2 class="blue medium-text">Destructuring Arrays and Objects.</h2></a>
+            <p class="slug">
+                Definition There is no concise definition than on MDN for destructuring assignments: The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variab...
+            </p>
+          </div>
+        </div>
+
+        <div class="blog">
+            <div class="thumbnail">
+              <img src="./assets/blogs/Slice&Splice.png" alt="" />
+            </div>
+            <div class="blog-text">
+              <a href="https://blognotes.hashnode.dev/slice-and-splice-array-methods-in-javascript" target="_blank"><h2 class="blue medium-text">Slice() & Splice() Array methods in Javascript.</h2></a>
+              <p class="slug">
+                slice[startIndex, endIndex) Slice method is used to extract the part of array based on the start and end indexes passed as the parameter. It returns the extracted part and does not modify the original array. The endIndex is optional, if not given it...
+              </p>
+            </div>
+          </div>
+
+        <div class="blog">
+            <div class="thumbnail">
+              <img src="./assets/blogs/CallApplyBind.png" alt="" />
+            </div>
+            <div class="blog-text">
+              <a href="https://blognotes.hashnode.dev/call-apply-and-bind-functions-in-javascript" target="_blank"><h2 class="blue medium-text">Call(), Apply() & Bind() functions in Javascript.</h2></a>
+              <p class="slug">
+                These functions are usually used when we want to set the this keyword independent of how the function is being called in our code. Lets understand this in a clear way with an example. Assume a flight company minimal object, it stores the name of t...
+              </p>
+            </div>
+          </div>
+
+          
+      </div>
+
+      <div class="more-projects">
+        <a href="https://blognotes.hashnode.dev/"
+          ><p class="more-projects-text grey">
+            read more blogs on <span class="green">hashnode ------></span>
+          </p></a
+        >
+      </div>
+    </section>
 
     <!-- Experience section -->
     <section id="experience">
@@ -244,7 +305,7 @@
     <footer>
       <p>
         &copy; Designed & Developed By
-        <a href="https://www.twitter.com/eyerahulk/">Rahul </a>
+        <a href="https://www.twitter.com/eyerahulk/" target="_blank">Rahul </a>
       </p>
     </footer>
   </body>

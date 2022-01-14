@@ -15,7 +15,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 a {
@@ -44,14 +44,20 @@ body {
 }
 
 .big-text {
-  font-size: 40px;
+  font-size: 2.5rem;
   word-spacing: 1%;
 }
 
 .medium-text {
-  font-size: 30px;
+  font-size: 1.8rem;
   word-spacing: 1%;
 }
+
+/* **************************** */
+/* **************************** */
+/* ********    Navigation   **************** */
+/* **************************** */
+/* **************************** */
 
 nav,
 .hero-section {
@@ -90,43 +96,61 @@ nav .logo {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* **************************** */
+/* **************************** */
+/* ********    HERO   **************** */
+/* **************************** */
+/* **************************** */
+
 #hero {
   background-image: url("./../assets/images/01.svg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: cover;
-}
-
-.hero-section {
-  margin: 4rem 0;
-  margin-left: 3.5rem;
-}
-
-.left {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  gap: 2rem;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: start;
-  margin-top: 1rem;
+.social-icons,
+.heading {
+  margin: 1.2rem 0;
 }
 
 .social-icons img {
-  margin-right: 1rem;
+  width: 40px;
+  margin-right: 0.4rem;
 }
 
-.right img {
-  width: 80%;
-  text-align: center;
-  box-shadow: 0 0 5000px 0 var(--green); 
+.hero-img img {
+  width: 100%;
   border-radius: 50%;
-  border: 1px solid ;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid rgb(0, 0, 0);
 }
 
+/* **************************** */
+/* **************************** */
+/* ********    Skills   **************** */
+/* **************************** */
+/* **************************** */
+
+.skill {
+  width: 50px;
+  height: 50px;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 7px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* **************************** */
+/* **************************** */
+/* ********    PROJECTS   **************** */
+/* **************************** */
+/* **************************** */
 #projects {
   padding: 1rem 3rem;
   box-sizing: border-box;
@@ -229,12 +253,76 @@ nav .logo {
   margin-bottom: 1rem;
 }
 
+/* **************************** */
+/* **************************** */
+/* ********    Blogs   **************** */
+/* **************************** */
+/* **************************** */
+
+#blogs {
+  background-image: url('../assets/images/03.svg');
+}
+
+
+.blogs-container {
+  margin: 2rem;
+}
+
+.blog {
+  max-width: 900px;
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  flex: 1;
+}
+
+.blog-text {
+  padding: 1.2rem 0.5rem;
+  flex: 1.1;
+}
+
+
+.thumbnail img {
+  width: 100%;
+  min-height: 250px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.slug {
+  margin: 1rem 1rem 0 0;
+  color: #777;
+}
+
+
+/* **************************** */
+/* **************************** */
+/* ********    Experience   **************** */
+/* **************************** */
+/* **************************** */
+
 #experience {
   background-image: url("./../assets/images/04.svg");
   background-repeat: no-repeat;
   background-position: cover;
   object-fit: cover;
 }
+
+/* **************************** */
+/* **************************** */
+/* ********    Education   **************** */
+/* **************************** */
+/* **************************** */
+
 #education {
   background-image: url("./../assets/images/05.svg");
   background-repeat: no-repeat;
@@ -288,15 +376,15 @@ nav .logo {
 }
 
 .more-projects-text {
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 #experience .timeline-wrapper .item p:first-child {
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 #education .timeline-wrapper .item p:first-child {
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -326,8 +414,14 @@ nav .logo {
 }
 
 .citem p {
-  font-size: 20px;
+  font-size: 1.2rem;
 }
+
+/* **************************** */
+/* **************************** */
+/* ********    Footer   **************** */
+/* **************************** */
+/* **************************** */
 
 footer {
   margin: 1rem 0 0 0;
@@ -345,18 +439,24 @@ footer p a {
   color: var(--green);
 }
 
+/* **************************** */
+/* **************************** */
+/* ********    Media Queries   **************** */
+/* **************************** */
+/* **************************** */
+
 @media screen and (max-width: 500px) {
   .container {
     margin: 1rem 1rem;
   }
 
   .big-text {
-    font-size: 30px;
+    font-size: 1.8rem;
     word-spacing: 0.8%;
   }
 
   .medium-text {
-    font-size: 25px;
+    font-size: 1.5rem;
     word-spacing: 0.8%;
   }
 
@@ -375,27 +475,23 @@ footer p a {
     margin-top: 0.5rem;
   }
 
-  .hero-section {
-    margin: 2rem 2rem;
-    display: flex;
+  #hero {
     flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .hero-text {
     text-align: center;
-    justify-content: space-evenly;
   }
 
-  .left {
-    margin: 0;
+  .blog {
+    flex-direction: column;
+    max-width: 400px;
+    gap: 1rem;
   }
 
-  .social-icons {
-    display: flex;
-    text-align: center;
-    justify-content: center !important;
-  }
-
-  .right img {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  .blog-text {
+    padding: 0 1.5rem 1.5rem 1.5rem;
   }
 
   .timeline-wrapper {
@@ -427,18 +523,18 @@ footer p a {
   }
 }
 
-@media screen and (max-width: 720px) and (min-width: 499px) {
+@media screen and (max-width: 750px) {
   .container {
     margin: 1rem 1rem;
   }
 
   .big-text {
-    font-size: 30px;
+    font-size: 1.8rem;
     word-spacing: 0.8%;
   }
 
   .medium-text {
-    font-size: 25px;
+    font-size: 1.5rem;
     word-spacing: 0.8%;
   }
 
@@ -456,26 +552,22 @@ footer p a {
     margin-top: 0.5rem;
   }
 
-  .hero-section {
-    margin: 2rem 2rem;
-    display: flex;
+  #hero {
     flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .hero-text {
     text-align: center;
-    justify-content: space-evenly;
   }
 
-  .left {
-    margin: 0;
+  .blog {
+    flex-direction: column;
+    max-width: 400px;
+    gap: 1rem;
   }
 
-  .social-icons {
-    display: flex;
-    text-align: center;
-    justify-content: center !important;
-  }
-
-  .right img {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+  .blog-text {
+    padding: 0 1.5rem 1.5rem 1.5rem;
   }
 }
