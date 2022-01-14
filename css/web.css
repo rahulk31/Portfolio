@@ -138,6 +138,9 @@ nav .logo {
 /* **************************** */
 #skills {
   background-image: url('../assets/images/02.svg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
 .skill {
@@ -264,6 +267,9 @@ nav .logo {
 
 #blogs {
   background-image: url('../assets/images/04.svg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
 
