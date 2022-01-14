@@ -14,12 +14,16 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none !important;
 }
 
 body {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 .container {
@@ -87,7 +91,7 @@ nav .logo {
 }
 
 #hero {
-  background-image: url('./../assets/images/01.svg');
+  background-image: url("./../assets/images/01.svg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: cover;
@@ -118,16 +122,15 @@ nav .logo {
 .right img {
   width: 80%;
   text-align: center;
-  box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5000px 0 var(--green); 
   border-radius: 50%;
   border: 1px solid ;
-
 }
 
 #projects {
   padding: 1rem 3rem;
   box-sizing: border-box;
-  background-image: url('./../assets/images/02.svg');
+  background-image: url("./../assets/images/02.svg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: cover;
@@ -179,19 +182,18 @@ nav .logo {
 }
 
 .p1 {
-  background-image: url('./../assets/projects/shortly.png');
+  background-image: url("./../assets/projects/shortly.png");
 }
 
 .p2 {
-  background-image: url('./../assets/projects/DashboardNew.png');
+  background-image: url("./../assets/projects/DashboardNew.png");
 }
 .p3 {
-  background-image: url('./../assets/projects/pizza.png');
+  background-image: url("./../assets/projects/pizza.png");
 }
 .p4 {
-  background-image: url('./../assets/projects/Blog.png');
+  background-image: url("./../assets/projects/Blog.png");
 }
-
 
 .icons {
   margin: 1rem auto 0 auto;
@@ -228,13 +230,13 @@ nav .logo {
 }
 
 #experience {
-  background-image: url('./../assets/images/03.svg');
+  background-image: url("./../assets/images/04.svg");
   background-repeat: no-repeat;
   background-position: cover;
   object-fit: cover;
 }
 #education {
-  background-image: url('./../assets/images/04.svg');
+  background-image: url("./../assets/images/05.svg");
   background-repeat: no-repeat;
   background-position: cover;
   object-fit: cover;
@@ -263,7 +265,7 @@ nav .logo {
 }
 
 .item::before {
-  content: ' ';
+  content: " ";
   position: absolute;
   width: 15px;
   height: 15px;
@@ -272,7 +274,6 @@ nav .logo {
   margin-top: -1.6rem;
   background-color: var(--green);
 }
-
 
 .more-projects {
   margin: 3rem auto 1rem auto;
@@ -302,7 +303,7 @@ nav .logo {
 #contact {
   margin: auto;
   text-align: center;
-  background-image: url('./../assets/images/04.svg');
+  background-image: url("./../assets/images/06.svg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: cover;
