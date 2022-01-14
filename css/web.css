@@ -506,6 +506,13 @@ footer p a {
     text-align: center;
   }
 
+  
+  .skill {
+    width: 55px;
+    height: 55px;
+    margin: 0.4rem;
+  }
+
   .blog {
     flex-direction: column;
     max-width: 400px;
@@ -581,6 +588,12 @@ footer p a {
 
   .hero-text {
     text-align: center;
+  }
+
+  .skill {
+    width: 55px;
+    height: 55px;
+    margin: 0.4rem;
   }
 
   .blog {
