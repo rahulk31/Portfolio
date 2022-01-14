@@ -114,6 +114,10 @@ nav .logo {
   gap: 2rem;
 }
 
+.hero-text, .hero-img {
+  padding: 4rem 0 0 0;
+}
+
 .social-icons,
 .heading {
   margin: 1.2rem 0;
@@ -502,6 +506,10 @@ footer p a {
     justify-content: center;
   }
 
+  .hero-text, .hero-img {
+    padding: 0;
+  }
+
   .hero-text {
     text-align: center;
   }
@@ -584,6 +592,10 @@ footer p a {
   #hero {
     flex-direction: column-reverse;
     justify-content: center;
+  }
+
+  .hero-text, .hero-img {
+    padding: 0;
   }
 
   .hero-text {
