@@ -15,7 +15,7 @@
 }
 
 html {
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 a {
@@ -202,10 +202,11 @@ nav .logo {
 .project {
   max-width: 300px;
   box-sizing: border-box;
-  margin: 1rem 1rem;
+  margin: 2rem 1rem;
+  padding-bottom: 2rem;
   border-radius: 5px;
   background: linear-gradient(120deg, var(--blackish), var(--blackish));
-  box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.07);
 }
 
 .project-name {
@@ -216,7 +217,7 @@ nav .logo {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
-  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.07);
 }
 
 .project-name h3 {
@@ -241,9 +242,12 @@ nav .logo {
 .p4 {
   background-image: url("./../assets/projects/Blog.png");
 }
+.p5 {
+  background-image: url("./../assets/projects/StackUI.png");
+}
 
 .icons {
-  margin: 1rem auto 0 auto;
+  margin: 2rem auto 0 auto;
   text-align: center;
 }
 
