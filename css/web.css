@@ -20,6 +20,7 @@ html {
 
 a {
   text-decoration: none !important;
+  color: var(--blue);
 }
 
 body {
@@ -114,7 +115,8 @@ nav .logo {
   gap: 2rem;
 }
 
-.hero-text, .hero-img {
+.hero-text,
+.hero-img {
   padding: 4rem 0 0 0;
 }
 
@@ -141,7 +143,7 @@ nav .logo {
 /* **************************** */
 /* **************************** */
 #skills {
-  background-image: url('../assets/images/02.svg');
+  background-image: url("../assets/images/02.svg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: cover;
@@ -156,7 +158,6 @@ nav .logo {
   align-items: center;
   margin: 0 auto;
   padding: 1rem;
-
 }
 
 .skill {
@@ -287,12 +288,11 @@ nav .logo {
 /* **************************** */
 
 #blogs {
-  background-image: url('../assets/images/04.svg');
+  background-image: url("../assets/images/04.svg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: cover;
 }
-
 
 .blogs-container {
   margin: 2rem;
@@ -319,7 +319,6 @@ nav .logo {
   flex: 1.1;
 }
 
-
 .thumbnail img {
   width: 100%;
   min-height: 250px;
@@ -332,7 +331,6 @@ nav .logo {
   margin: 1rem 1rem 0 0;
   color: #777;
 }
-
 
 /* **************************** */
 /* **************************** */
@@ -510,7 +508,8 @@ footer p a {
     justify-content: center;
   }
 
-  .hero-text, .hero-img {
+  .hero-text,
+  .hero-img {
     padding: 0;
   }
 
@@ -518,7 +517,6 @@ footer p a {
     text-align: center;
   }
 
-  
   .skill {
     width: 55px;
     height: 55px;
@@ -598,7 +596,8 @@ footer p a {
     justify-content: center;
   }
 
-  .hero-text, .hero-img {
+  .hero-text,
+  .hero-img {
     padding: 0;
   }
 
