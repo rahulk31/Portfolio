@@ -467,7 +467,8 @@ nav .logo {
 footer {
   margin: 1rem 0 0 0;
   padding: 3rem;
-  background: linear-gradient(120deg, var(--green), var(--blue));
+  background-color: var(--blue);
+  border-top: 3px solid var(--green);
 }
 
 footer p {
